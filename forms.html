@@ -1,0 +1,41 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title class="fas fa-university noHover">Join Us</title>
+    <link rel="icon" href="./Images/i.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <style>
+        body {
+            background-image: url("./Images/form.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: bottom;
+            background-size: 100% 40%;
+        }
+    </style>
+</head>
+
+<!--navbar-->
+
+<ul>
+    <i class="fas fa-university noHover"> SPARKS BANK</i>
+    <li style="float: right;"><a href="contactUs.html">Contact Us</a></li>
+    <li style="float: right;"><a href="Index.html">Home</a></li>
+</ul>
+
+<div style=" margin-left: 35%;margin-top: 80px;border: 2px solid black; background-color: rgb(204, 201, 247); width:20%; padding:10px 50px;">
+    <h1 style="text-align: center; font-size: medium;">Provide us with the Details below</h1>
+    <br>
+    <form style="font-size: 120%;" action="createSuccess.php">
+        <label for="name">Name :</label>
+        <input type="text" placeholder="Enter your Name" name="name" required>
+        <br><br><br>
+        <label for="email">Email ID :</label>
+        <input type="email" placeholder="Enter your Mail ID" name="email" required>
+        <br><br><br>
+        <label for="amount">Balance :</label>
+        <input type="number" name="amount" min=0 placeholder="Enter Balance" required>
+        <br><br><br>
+        <input type="submit" value="Submit" class="button">
+    </form>
+</div>
