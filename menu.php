@@ -39,3 +39,5 @@ mysqli_select_db($dname,"bank") or die("No Database connected!");
     <a href="individualTransactionHistory.php?accno=<?php echo $accno ?>&flag=1"><img src="./Images/debit.png" style="height: 30%; width: 20%; border: 2px solid black;"></a>
     <a href="individualTransactionHistory.php?accno=<?php echo $accno ?>&flag=2"><img src="./Images/credit.png" style="height: 30%; width: 20%; border: 2px solid black;margin-left: 10%"></a>
 </div>
+<div>
+</div>
